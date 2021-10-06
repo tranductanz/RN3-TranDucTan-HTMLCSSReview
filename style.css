@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.text{
+    font-size: 1.5rem;
+}
+
+.container .card_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .card_item{
+    position: relative;
+    width: 50%;
+    padding: 0.5rem;
+}
+.container .card_item .card .card-img-top{
+    width: 90%;
+    height: 100%;
+}
+.container .card_item .heart{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 30px;
+    height: 30px;
+}
+
+
